@@ -1,8 +1,9 @@
 import * as Yup from 'yup';
 import User from '../models/User';
+import File from '../models/File';
 
 class UserController {
-	async strore(req, res) {
+	async store(req, res) {
 		const schema = Yup.object().shape({
 			name: Yup.string().required(),
 			email: Yup.string()
@@ -69,13 +70,26 @@ class UserController {
 			return res.status(401).json({ error: 'Password does not match' });
 		}
 
-		const { id, name, provider, email: NewEmail } = await user.update(req.body);
+		await user.update(req.body);
+
+		const { id, name, email: NewEmail, avatar } = await User.findByPk(
+			req.userId,
+			{
+				include: [
+					{
+						model: File,
+						as: 'avatar',
+						attributes: ['id', 'path', 'url'],
+					},
+				],
+			}
+		);
 
 		return res.json({
 			id,
 			name,
 			email: NewEmail,
-			provider,
+			avatar,
 		});
 	}
 }
