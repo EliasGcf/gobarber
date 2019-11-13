@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "history": "^4.10.1",
+    "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
