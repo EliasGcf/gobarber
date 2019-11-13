@@ -12,7 +12,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "reactotron-react-js": "^3.3.6",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
