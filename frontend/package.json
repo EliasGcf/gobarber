@@ -9,7 +9,8 @@
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
-    "reactotron-react-js": "^3.3.6"
+    "reactotron-react-js": "^3.3.6",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
