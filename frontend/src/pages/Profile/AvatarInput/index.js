@@ -20,7 +20,7 @@ export default function AvatarInput() {
 				path: 'dataset.file',
 			});
 		}
-	}, [ref, registerField]);
+	}, [ref.current]); //eslint-disable-line
 
 	async function hanldeChange(e) {
 		const data = new FormData();
