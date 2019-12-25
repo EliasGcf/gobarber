@@ -1,5 +1,6 @@
-import styled from 'styled-components/native';
 import { BaseButton } from 'react-native-gesture-handler';
+
+import styled from 'styled-components/native';
 
 export const Container = styled(BaseButton)`
 	height: 46px;
