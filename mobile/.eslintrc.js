@@ -42,8 +42,8 @@ module.exports = {
 				groups: [
 					'/^styled-components/',
 					'/^react/',
-					'/^date-fns/',
 					'module',
+					'/^date-fns/',
 					'/^~/services/',
 					'/^~/',
 					['parent', 'sibling', 'index'],

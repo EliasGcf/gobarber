@@ -4,8 +4,9 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import PropTypes from 'prop-types';
 
-import Background from '~/components/Background';
 import api from '~/services/api';
+
+import Background from '~/components/Background';
 
 import { Container, Provider, ProvidersList, Avatar, Name } from './styles';
 
