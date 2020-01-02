@@ -40,8 +40,11 @@ module.exports = {
 			{
 				newlinesBetween: 'always', // new line between groups
 				groups: [
+					'/^styled-components/',
 					'/^react/',
+					'/^date-fns/',
 					'module',
+					'/^~/services/',
 					'/^~/',
 					['parent', 'sibling', 'index'],
 				],
