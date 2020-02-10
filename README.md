@@ -49,4 +49,4 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 
 ---
 
-Feito com ♥ by EliasGcf :wave:  [Entre em contato](https://www.linkedin.com/in/eliasgcf/)
+Feito com ♥ by [EliasGcf](https://www.linkedin.com/in/eliasgcf/)
