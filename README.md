@@ -47,4 +47,6 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
 
+---
+
 Feito com ♥ by EliasGcf :wave: [Linkedin](https://www.linkedin.com/in/eliasgcf/)
