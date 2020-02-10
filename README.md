@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  GoBarber web
+  GoBarber
 </h3>
 
 <p align="center">
