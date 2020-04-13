@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "192.168.0.103",
+  "port": "5432",
+  "username": "docker",
+  "password": "docker",
+  "database": "gobarber",
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
