@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
+    "resetDatabase": "ts-node-dev ./node_modules/typeorm/cli.js query 'DROP TABLE IF EXISTS appointments, users, migrations' && ts-node-dev ./node_modules/typeorm/cli.js migration:run"
   },
   "dependencies": {
     "date-fns": "^2.12.0",
