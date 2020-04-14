@@ -25,10 +25,25 @@
 </p>
 
 <p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
+
+## 👨🏻‍💻 Projeto
+
+O GoBarber é uma aplicação para o agendamento de serviços para cabeleleiro. Tendo o frontend Web como pagina para o Prestador de Serviço e o mobile para o usuário final.
+
+## 🚀 Tecnologias
+
+Esta aplicação foi desenolvida com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
 
 ## 💻 Instalação, execução e desenvolvimento
 
@@ -43,28 +58,57 @@
 
 ### Backend
 
-- A partir da raiz do projeto, entre na pasta do backend rodando `cd backend`;
-- Rode `yarn` para instalar as dependências;
-- Crie um banco de dados no `postgres` com o nome de `gobarber`;
-- Rode `cp .env.example .env` e preencha o arquivo `.env` com **SUAS** variáveis ambiente;
-- Rode `yarn sequelize db:migrate` para executar as migrations;
-- Rode `yarn dev` para iniciar o servidor.
+```bash
+# A partir da raiz do projeto, entre na pasta do backend
+$ cd backend
+
+# Instale as dependências
+$ yarn
+
+# Tenha um banco de dados PostgreSQL em execução, exemplo:
+$ docker run --name gobarber-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# Faça uma copia do arquivo .env.example para .env e preencha com SUAS variáveis.
+$ cp .env.example .env
+
+# Execute as migrations
+$ yarn typeorm migration:run
+
+# Tudo pronto para iniciar o servidor
+$ yarn dev
+```
 
 ### Web
 
 _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 
-- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd frontend`;
-- Rode `yarn` para instalar as dependências;
-- Rode `yarn start` para iniciar o client.
+```bash
+# A partir da raiz do projeto, entre na pasta do frontend web
+$ cd frontend
+
+# Instale as dependências
+$ yarn
+
+# Tudo pronto para iniciar o client
+$ yarn start
+```
 
 ### Mobile
 
 _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 
-- A partir da raiz do projeto, entre na pasta do frontend mobile rodando `cd mobile`;
-- Rode `yarn` para instalar as dependências;
-- Rode `yarn react-native run-ios` ou `yarn react-native run-android` dependendo do SO.
+```bash
+# A partir da raiz do projeto, entre na pasta do frontend mobile
+$ cd mobile
+
+# Instale as dependências
+$ yarn
+
+# A denpender do seu SO, execute:
+$ yarn react-native run-ios
+# ou
+$ yarn react-native run-android
+```
 
 ## 🤔 Como contribuir
 
@@ -72,6 +116,7 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 
 ```bash
 # Fork via GitHub official command line
+# Caso não tenha o GitHub CLI, realize o fork pelo site.
 
 $ gh repo fork EliasGcf/gobarber
 ```
