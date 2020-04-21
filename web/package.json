@@ -18,7 +18,8 @@
     "react-icons": "^3.10.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "yup": "^0.28.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.0",
+    "@types/yup": "^0.26.37",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "eslint": "^6.8.0",
