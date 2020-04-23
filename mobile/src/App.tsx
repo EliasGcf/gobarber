@@ -5,8 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { View, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 
-import Routes from './routes';
+import AppProvider from './hooks';
 
+import Routes from './routes';
 import defaultTheme from './styles/theme/default';
 
 const App: React.FC = () => {
@@ -14,9 +15,11 @@ const App: React.FC = () => {
     <ThemeProvider theme={defaultTheme}>
       <NavigationContainer>
         <StatusBar barStyle="light-content" backgroundColor="#312e38" />
-        <View style={{ backgroundColor: '#312e38', flex: 1 }}>
-          <Routes />
-        </View>
+        <AppProvider>
+          <View style={{ backgroundColor: '#312e38', flex: 1 }}>
+            <Routes />
+          </View>
+        </AppProvider>
       </NavigationContainer>
     </ThemeProvider>
   );
