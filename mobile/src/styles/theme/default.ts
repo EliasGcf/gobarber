@@ -9,6 +9,8 @@ const defaultTheme: DefaultTheme = {
     orange: '#FF9000',
     grayHard: '#666360',
     inputs: '#232129',
+
+    error: '#c53030',
   },
 
   fonts: {

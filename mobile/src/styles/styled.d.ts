@@ -11,6 +11,8 @@ declare module 'styled-components' {
       orange: string;
       grayHard: string;
       inputs: string;
+
+      error: string;
     };
 
     fonts: {
