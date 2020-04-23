@@ -12,5 +12,10 @@ declare module 'styled-components' {
       grayHard: string;
       inputs: string;
     };
+
+    fonts: {
+      regular: string;
+      medium: string;
+    };
   }
 }

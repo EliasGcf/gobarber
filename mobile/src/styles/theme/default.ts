@@ -10,6 +10,11 @@ const defaultTheme: DefaultTheme = {
     grayHard: '#666360',
     inputs: '#232129',
   },
+
+  fonts: {
+    regular: 'RobotoSlab-Regular',
+    medium: 'RobotoSlab-Medium',
+  },
 };
 
 export default defaultTheme;

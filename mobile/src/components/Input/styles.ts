@@ -6,7 +6,7 @@ export const Container = styled.View`
   width: 100%;
   height: 60px;
   padding: 0 16px;
-  background: ${props => props.theme.colors.inputs};
+  background: ${({ theme }) => theme.colors.inputs};
   border-radius: 10px;
   margin-bottom: 8px;
 
@@ -14,16 +14,16 @@ export const Container = styled.View`
   align-items: center;
 `;
 
-export const TextInput = styled.TextInput.attrs(props => ({
-  placeholderTextColor: props.theme.colors.grayHard,
+export const TextInput = styled.TextInput.attrs(({ theme }) => ({
+  placeholderTextColor: theme.colors.grayHard,
 }))`
   flex: 1;
   color: #fff;
   font-size: 16px;
-  font-family: 'RobotoSlab-Regular';
+  font-family: ${({ theme }) => theme.fonts.regular};
 `;
 
 export const Icon = styled(FeatherIcon)`
   margin-right: 16px;
-  color: ${props => props.theme.colors.grayHard};
+  color: ${({ theme }) => theme.colors.grayHard};
 `;
