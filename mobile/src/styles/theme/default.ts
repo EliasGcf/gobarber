@@ -6,6 +6,9 @@ const defaultTheme: DefaultTheme = {
   colors: {
     background: '#312e38',
     white: '#f4ede8',
+    orange: '#FF9000',
+    grayHard: '#666360',
+    inputs: '#232129',
   },
 };
 
