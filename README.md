@@ -96,7 +96,7 @@ $ yarn start
 
 ### Mobile
 
-<!-- _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 
 ```bash
 # A partir da raiz do projeto, entre na pasta do frontend mobile
@@ -106,16 +106,12 @@ $ cd mobile
 $ yarn
 
 # A denpender do seu SO, execute:
+$ cd ios && pod install && cd ..  # Para instalar as dependência do IOS
 $ yarn react-native run-ios
+
 # ou
 $ yarn react-native run-android
-``` -->
-
-<p align="center">
- Ainda em desenvolvimento!
- <br />
- <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="loading">
-</p>
+```
 
 ## 🤔 Como contribuir
 
