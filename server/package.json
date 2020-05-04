@@ -5,8 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev:server": "ts-node-dev --inspect -r tsconfig-paths/register --transpileOnly --ignore-watch node_modules src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpileOnly --ignore-watch node_modules src/shared/infra/http/server.ts",
+    "start": "ts-node src/shared/infra/http/server.ts",
+    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "resetDatabase": "ts-node-dev ./node_modules/typeorm/cli.js query 'DROP TABLE IF EXISTS appointments, users, migrations' && ts-node-dev ./node_modules/typeorm/cli.js migration:run"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "multer": "^1.4.2",
     "pg": "^8.0.2",
     "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.1.0",
     "typeorm": "^0.2.24",
     "uuidv4": "^6.0.7"
   },
