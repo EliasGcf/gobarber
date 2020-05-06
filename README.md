@@ -3,11 +3,13 @@
 </h1>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/eliasgcf/" target="_blank" rel="noopener noreferrer">
+	<a href="https://www.linkedin.com/in/eliasgcf/" target="_blank" rel="noopener noreferrer">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%23FF9000">
   </a>
  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber?color=%23FF9000">
 </p>
+
+<img alt="Mockup" src="https://res.cloudinary.com/eliasgcf/image/upload/v1587509596/GoBarber/mockup_ocggit.png">
 
 ## 👨🏻‍💻 Hi everyone, I made some changes here
 
