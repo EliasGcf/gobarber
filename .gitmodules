@@ -1,0 +1,12 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:EliasGcf/gobarber-api.git
+	branch = master
+[submodule "web"]
+	path = web
+	url = git@github.com:EliasGcf/gobarber-web.git
+	branch = master
+[submodule "mobile"]
+	path = mobile
+	url = git@github.com:EliasGcf/gobarber-mobile.git
+	branch = master
