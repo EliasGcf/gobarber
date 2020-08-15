@@ -4,7 +4,7 @@
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/eliasgcf/" target="_blank" rel="noopener noreferrer"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%23FF9000"></a>
- <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber?color=%23FF9000">
+  <a href="https://github.com/EliasGcf/gobarber/blob/master/README.md"><img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber?color=%23FF9000"></a>
 </p>
 
 <img alt="Mockup" src="https://res.cloudinary.com/eliasgcf/image/upload/v1587509596/GoBarber/mockup_ocggit.png">
